@@ -1,4 +1,5 @@
-var pubService = require('./services/pubs.service');
+const pubService = require('./services/pubs.service');
+
 
 module.exports = {
     services: {
