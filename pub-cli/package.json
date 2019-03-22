@@ -1,0 +1,22 @@
+{
+  "name": "pub-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pub-cli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "preferGlobal": true,
+  "dependencies": {
+    "pub-services": "../pub-services"
+  },
+  "devDependencies": {
+    "commander": "^2.19.0"
+  }
+}

@@ -1,10 +1,10 @@
-var pubs = require('./pubs.json');
+var pubs = require('../moks/pubs.json');
 
 function listPub() {
     console.log(pubs);
     return pubs;
 }
 
-module.export ={
+module.exports ={
     listPub : listPub
 };
