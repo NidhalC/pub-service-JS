@@ -1,5 +1,4 @@
-var pubService = require('pub-services');
-
+const pubService = require('pub-services');
 
 module.exports = {
     getListPub: pubService.services.pubService.listPub,
